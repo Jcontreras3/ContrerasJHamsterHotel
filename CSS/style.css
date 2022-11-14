@@ -1,0 +1,51 @@
+.navColor {
+  background-color: #000324;
+}
+.fullBg {
+  background-color: #000324;
+}
+.Navtxt1 {
+  margin-top: 75px;
+  margin-right: 30px;
+}
+.Navtxt2 {
+  margin-top: 75px;
+  margin-right: 30px;
+}
+.Navtxt3 {
+  margin-top: 75px;
+  margin-left: 30px;
+}
+.Navtxt4 {
+  margin-top: 75px;
+  margin-left: 30px;
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btnBg {
+ background-color: #000324;
+ color: white;
+ outline-color: white;
+}
+.bgImg{
+    background-image: url("../Assets/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 119px;
+    height: 40rem;
+}
+.box{
+    width: 945px;
+    height: 232px;
+    background-color: #000324;
+    margin-top: 150px;
+    opacity: 0.8;
+}
+
+.colPostion{
+    justify-content: center;
+    display: flex;
+}
