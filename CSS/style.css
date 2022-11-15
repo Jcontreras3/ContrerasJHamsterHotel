@@ -137,19 +137,16 @@
 .cPos{
   justify-content: center;
   display: flex;
-  margin-top: 5rem;
-  margin-left: 30rem;
+  border-width: 0;
+  border: none;
 }
 .cPos2{
   justify-content: center;
   display: flex;
-  margin-top: 5rem;
-  
 }
 .cPos3{
   justify-content: center;
   display: flex;
-  margin-top: 5rem
 }
 
 .cardTitle{
@@ -159,4 +156,5 @@
 .threeCards{
   justify-content: center;
   display: flex;
+  width: 75rem;
 }
