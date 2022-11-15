@@ -3,6 +3,8 @@
 }
 .fullBg {
   background-color: #000324;
+  padding: 0;
+  overflow: hidden;
 }
 .Navtxt1 {
   margin-top: 75px;
@@ -39,7 +41,6 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 .box {
   width: 945px;
@@ -53,9 +54,10 @@
 }
 .box2 {
   width: 95rem;
-  height: 30rem;
+  width: 98.8vw;
   background-color: white;
   background-size: cover;
+  align-items: center;
 }
 
 .colPostion {
@@ -77,9 +79,11 @@
 }
 
 .hamsterHomeImg {
-  top: 728px;
-  left: 393px;
-  width: 369px;
-  height: 416px;
+  width: 400px;
+  height: 350px;
+  justify-content: center;
+  display: flex;
+}
+.imgPos {
   align-content: center;
 }
