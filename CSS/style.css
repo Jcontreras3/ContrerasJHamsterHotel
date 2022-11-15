@@ -26,26 +26,60 @@
 }
 
 .btnBg {
- background-color: #000324;
- color: white;
- outline-color: white;
+  background-color: #000324;
+  color: white;
+  outline-color: white;
 }
-.bgImg{
-    background-image: url("../Assets/header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 119px;
-    height: 40rem;
+.bgImg {
+  background-image: url("../Assets/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
-.box{
-    width: 945px;
-    height: 232px;
-    background-color: #000324;
-    margin-top: 150px;
-    opacity: 0.8;
+.box {
+  width: 945px;
+  height: 232px;
+  background-color: #000324;
+  margin-top: 150px;
+  opacity: 0.8;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.box2 {
+  width: 95rem;
+  height: 30rem;
+  background-color: white;
+  background-size: cover;
 }
 
-.colPostion{
-    justify-content: center;
-    display: flex;
+.colPostion {
+  justify-content: center;
+  display: flex;
+}
+
+.boxTxt {
+  color: white;
+  align-content: center;
+  font: normal normal normal 45px/57px Dosis;
+  text-align: center;
+}
+.boxTxt2 {
+  color: white;
+  align-content: center;
+  text-align: center;
+  font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+.hamsterHomeImg {
+  top: 728px;
+  left: 393px;
+  width: 369px;
+  height: 416px;
+  align-content: center;
 }
