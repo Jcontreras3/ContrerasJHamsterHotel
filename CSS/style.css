@@ -53,11 +53,8 @@
   align-items: center;
 }
 .box2 {
-  /* width: 98.8vw; */
   background-color: white;
   background-size: cover;
-  justify-content: center;
-  display: flex;
 }
 
 .colPostion {
@@ -82,10 +79,10 @@
   top: 728px;
   left: 393px;
   width: 369px;
-  height: 350px;
+  height: 390px;
   justify-content: center;
   display: flex;
-  margin-left: 110px;
+  margin-left: 7rem;
 }
 .imgPos {
   align-content: center;
@@ -123,4 +120,43 @@
   height: 150px;
   margin-left: 30px;
   margin-top: 10px;
+}
+
+.cardRow{
+  background-image: url("../Assets/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+}
+.card{
+  justify-content: center;
+  display: flex;
+}
+
+.cPos{
+  justify-content: center;
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 30rem;
+}
+.cPos2{
+  justify-content: center;
+  display: flex;
+  margin-top: 5rem;
+  
+}
+.cPos3{
+  justify-content: center;
+  display: flex;
+  margin-top: 5rem
+}
+
+.cardTitle{
+  text-align: center;
+  color: white;
+}
+.threeCards{
+  justify-content: center;
+  display: flex;
 }
