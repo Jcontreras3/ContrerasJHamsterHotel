@@ -132,6 +132,8 @@
 .card{
   justify-content: center;
   display: flex;
+  border: none;
+  border-radius: 0;
 }
 
 .cPos{
@@ -139,6 +141,7 @@
   display: flex;
   border-width: 0;
   border: none;
+  margin-right: 18px;
 }
 .cPos2{
   justify-content: center;
@@ -147,14 +150,69 @@
 .cPos3{
   justify-content: center;
   display: flex;
+  margin-left: 18px;
 }
 
 .cardTitle{
   text-align: center;
   color: white;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font: normal normal normal 35px/44px Dosis;
 }
 .threeCards{
   justify-content: center;
   display: flex;
-  width: 75rem;
+  width: 90rem;
+}
+.bullets{
+  justify-content: start;
+  display: flex;
+}
+
+.revBtn{
+  margin-top: 12px;
+  border-radius: 0;
+  background-color: #004CC7;
+  width: 7rem;
+  margin-left: 30px;
+}
+.revBtn2{
+  margin-top: 12px;
+  color: white;
+  background-color: #004CC7;
+  border-radius: 0;
+  width: 7rem;
+  margin-left: 30px;
+}
+.revBtn3{
+  margin-top: -6px;
+  border-radius: 0;
+  background-color: #004CC7;
+  width: 7rem;
+  margin-left: 30px;
+}
+
+.p{
+  font-size: 16px;
+}
+
+li{
+  font-size: 13px;
+  font: normal normal normal Dosis;
+}
+
+.cardFt{
+  font-size: 16px;
+  font: normal normal bold 16px/20px Source Sans Pro;
+}
+
+
+.packagesRow{
+  background-color: white;
+}
+
+.packTitle{
+  text-align: center;
 }
