@@ -324,6 +324,38 @@ li {
   margin-top: 70px;
 }
 
-/* .aR{
+
+.whtBg{
+  background-color: white;
+  background-size: cover;
+}
+
+.boxJJ{
+  width: 50rem;
+  height: 25rem;
+  background-color: #000324;
+  margin-top: 100px;
+}
+
+.rJJ{
+  justify-content: center;
+  display: flex;
+}
+
+.reserTxt{
+  text-align: center;
+  color: white;
   margin-top: 20px;
-} */
+}
+
+input{
+  width: 170px;
+}
+.inRow{
+  justify-content: center;
+  display: flex;
+}
+
+.i1{
+  margin-right: 50px;
+}
