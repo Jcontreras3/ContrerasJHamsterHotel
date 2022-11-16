@@ -160,6 +160,10 @@
   margin-bottom: 30px;
   font: normal normal normal 35px/44px Dosis;
 }
+
+.crdImg{
+  border-radius: 0;
+}
 .threeCards {
   justify-content: center;
   display: flex;
@@ -211,6 +215,7 @@ li {
 .packageBox {
   background-color: white;
   background-size: cover;
+  height: 70rem;
 }
 
 .packTitle {
@@ -276,4 +281,49 @@ li {
 .aTitle{
   text-align: center;
   color: white;
+  margin-top: 20px;
 }
+
+.iconPos{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconImg{
+  width: 90px;
+}
+
+.aTxt{
+  color: white;
+  text-align: center;
+  margin-left: 200px;
+}
+.aTxt2{
+  color: white;
+  text-align: center;
+  margin-left: 67px;
+}
+.aTxt3{
+  color: white;
+  text-align: center;
+  margin-right: 65px;
+}
+.aTxt4{
+  color: white;
+  text-align: center;
+  margin-right: 200px;
+}
+
+.aRowTxt{
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.icR{
+  margin-top: 70px;
+}
+
+/* .aR{
+  margin-top: 20px;
+} */
