@@ -101,59 +101,58 @@
 }
 
 .t {
- margin-left: 40px;
-  
+  margin-left: 40px;
 }
 
-.awardImg1{
+.awardImg1 {
   width: 200px;
   height: 150px;
   margin-top: 10px;
 }
-.awardImg2{
+.awardImg2 {
   width: 200px;
   height: 200px;
   margin-left: 20px;
 }
-.awardImg3{
+.awardImg3 {
   width: 200px;
   height: 150px;
   margin-left: 30px;
   margin-top: 10px;
 }
 
-.cardRow{
+.cardRow {
   background-image: url("../Assets/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
   display: flex;
 }
-.card{
+.card {
   justify-content: center;
   display: flex;
   border: none;
   border-radius: 0;
 }
 
-.cPos{
+.cPos {
   justify-content: center;
   display: flex;
   border-width: 0;
   border: none;
   margin-right: 18px;
 }
-.cPos2{
+.cPos2 {
   justify-content: center;
   display: flex;
 }
-.cPos3{
+.cPos3 {
   justify-content: center;
   display: flex;
   margin-left: 18px;
 }
 
-.cardTitle{
+.cardTitle {
   text-align: center;
   color: white;
   font-size: 35px;
@@ -161,58 +160,120 @@
   margin-bottom: 30px;
   font: normal normal normal 35px/44px Dosis;
 }
-.threeCards{
+.threeCards {
   justify-content: center;
   display: flex;
   width: 90rem;
+  margin-bottom: 10%;
 }
-.bullets{
+.bullets {
   justify-content: start;
   display: flex;
 }
 
-.revBtn{
+.revBtn {
   margin-top: 12px;
   border-radius: 0;
-  background-color: #004CC7;
+  background-color: #004cc7;
   width: 7rem;
   margin-left: 30px;
 }
-.revBtn2{
+.revBtn2 {
   margin-top: 12px;
   color: white;
-  background-color: #004CC7;
+  background-color: #004cc7;
   border-radius: 0;
   width: 7rem;
   margin-left: 30px;
 }
-.revBtn3{
+.revBtn3 {
   margin-top: -6px;
   border-radius: 0;
-  background-color: #004CC7;
+  background-color: #004cc7;
   width: 7rem;
   margin-left: 30px;
 }
 
-.p{
+.p {
   font-size: 16px;
 }
 
-li{
+li {
   font-size: 13px;
   font: normal normal normal Dosis;
 }
 
-.cardFt{
+.cardFt {
   font-size: 16px;
   font: normal normal bold 16px/20px Source Sans Pro;
 }
 
-
-.packagesRow{
+.packageBox {
   background-color: white;
+  background-size: cover;
 }
 
-.packTitle{
+.packTitle {
   text-align: center;
+  font: normal normal normal 35px/44px Dosis;
+  margin-top: 10rem;
+}
+
+.boxImgTxt {
+  justify-content: center;
+  display: flex;
+}
+
+.hamWed {
+  top: 2143px;
+  left: 390px;
+  width: 561px;
+  height: 234px;
+}
+
+.hamSpring {
+  top: 2143px;
+  left: 390px;
+  width: 561px;
+  height: 234px;
+  float: right;
+  margin-left: 40rem;
+}
+
+.hamCheese {
+  top: 2613px;
+  left: 390px;
+  width: 561px;
+  height: 234px;
+}
+
+.ham1 {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.ham2 {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+.ham3 {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.test{
+  margin-left: 63px
+}
+
+.amenBox{
+  background-image: url("../Assets/bg.jpg");
+  background-size: cover;
+}
+
+.aTitle{
+  text-align: center;
+  color: white;
 }
