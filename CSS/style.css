@@ -1,5 +1,6 @@
 .navColor {
   background-color: #000324;
+  margin-bottom: 2rem;
 }
 .fullBg {
   background-color: #000324;
@@ -7,8 +8,8 @@
   overflow: hidden;
 }
 .Navtxt1 {
-  margin-top: 75px;
-  margin-right: 30px;
+  color: white;
+  text-align: center;
 }
 .Navtxt2 {
   margin-top: 75px;
@@ -104,18 +105,20 @@
   margin-left: 40px;
 }
 
+.iconRowJJ{
+  margin-bottom: 9rem;
+}
 .awardImg1 {
-  width: 200px;
+  width: 170px;
   height: 150px;
-  margin-top: 10px;
 }
 .awardImg2 {
-  width: 200px;
-  height: 200px;
+  width: 170px;
+  height: 170px;
   margin-left: 20px;
 }
 .awardImg3 {
-  width: 200px;
+  width: 170px;
   height: 150px;
   margin-left: 30px;
   margin-top: 10px;
@@ -354,8 +357,7 @@ li {
   color: white;
   text-align: center;
   margin-top: 20px;
-  justify-content: center;
-  display: flex;
+  margin-right: 25px;
 }
 
 .aRowTxt{
@@ -401,6 +403,7 @@ input{
   width: 140px;
   justify-content: space-around;
   display: flex;
+  border-radius: 0%;
 }
 
 .reserTxt{
@@ -414,7 +417,12 @@ input{
 }
 
 .reserveBtn{
-  margin-top: 34px;
+  margin-top: 33px;
+  width: 9rem;
+  font: normal normal bold 15px/25px Source Sans Pro;
+  border-radius: 0%;
+  color: white;
+  border-color: #000DC7;
 }
 
 .reserRowJJ{
