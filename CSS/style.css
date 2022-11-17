@@ -177,8 +177,10 @@
 
 .revBtn {
   margin-top: 12px;
-  border-radius: 0;
+  border: none;
+  border-radius: 3%;
   background-color: #004cc7;
+  border-color: #000DC7;
   width: 7rem;
   margin-left: 30px;
 }
@@ -221,7 +223,7 @@ li {
 .packTitle {
   text-align: center;
   font: normal normal normal 35px/44px Dosis;
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 
 .boxImgTxt {
@@ -234,6 +236,14 @@ li {
   left: 390px;
   width: 561px;
   height: 234px;
+  float: left;
+  margin-right: 20px;
+  justify-content: center;
+  display: flex;
+}
+.imgTxt{
+  display: flex;
+  align-items: center;
 }
 
 .hamSpring {
@@ -242,7 +252,7 @@ li {
   width: 561px;
   height: 234px;
   float: right;
-  margin-left: 40rem;
+  margin-right: 11rem;
 }
 
 .hamCheese {
@@ -250,6 +260,9 @@ li {
   left: 390px;
   width: 561px;
   height: 234px;
+  float: left;
+  margin-left: 13rem;
+  margin-right: 1rem;
 }
 
 .ham1 {
@@ -258,6 +271,17 @@ li {
   margin-top: 10px;
 }
 
+.ham1Col{
+  margin-left: 26rem;
+}
+.hamWedTxt{
+  font: normal normal normal 25px/32px Dosis;
+}
+
+.hamWedTxt3{
+  font: normal normal normal 16px/20px Source Sans Pro;
+  width: 1200px;
+}
 .ham2 {
   justify-content: center;
   display: flex;
@@ -269,13 +293,41 @@ li {
   margin-top: 10px;
 }
 
-.test{
-  margin-left: 63px
+.hamSpr4{
+  font: normal normal normal 25px/32px Dosis;
+  margin-left: 13rem;
 }
+.hamSpr5{
+  font: normal normal normal 16px/20px Source Sans Pro;
+  margin-left: 13rem;
+  
+}
+.hamSpr6{
+  font: normal normal normal 16px/20px Source Sans Pro;
+  margin-left: 13rem;
+  width: 35rem;
+}
+
+.hamCh7{
+  font: normal normal normal 25px/32px Dosis;
+  margin-left: 13rem;
+}
+.hamCh8{
+  font: normal normal normal 16px/20px Source Sans Pro;
+}
+.hamCh9{
+  font: normal normal normal 16px/20px Source Sans Pro;
+  width: 1300px;
+}
+
+
+
 
 .amenBox{
   background-image: url("../Assets/bg.jpg");
   background-size: cover;
+  background-position: center;
+  height: 30rem;
 }
 
 .aTitle{
@@ -316,6 +368,8 @@ li {
   margin-top: 70px;
   justify-content: center;
   display: flex;
+  
+  
 }
 
 .i{
@@ -326,15 +380,15 @@ li {
 .whtBg{
   background-color: white;
   background-size: cover;
-  height: 50rem;
 }
 
 .boxJJ{
   width: 60rem;
   height: 30rem;
   background-color: #000324;
-  margin-top: 100px;
+  margin-top: 7rem;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .rJJ{
@@ -380,4 +434,26 @@ height: 20rem
 
 .hamR{
   opacity: 1%;
+  height: 5rem;
+}
+
+
+
+.footerBox{
+  background-color: #000324;
+  background-size: cover;
+  margin-top: 5rem;
+  height: 13rem;
+}
+
+.logoPs{
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+.sunFlowTxt{
+  color: #E5FEFF;
+  text-align: center;
+  font: normal normal normal 16px/20px Source Sans Pro;
 }
