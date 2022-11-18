@@ -21,8 +21,8 @@ a.active, a.hover{
 }
 .navColor {
   background-color: #000324;
- height: 8rem;
  width: 100%;
+ max-height: fit-content;
 }
 .fullBg {
   background-color: #000324;
@@ -146,13 +146,6 @@ a.active, a.hover{
 
 /* Cards */
 
-@media(max-width:768)
-{
-  card{
-    height: 20rem;
-  }
-}
-
 
 .cardRow {
   background-image: url("../Assets/bg2.jpg");
@@ -260,18 +253,6 @@ a.active, a.hover{
   display: flex;
 }
 
-
-@media(max-width:768){
-  .hamWed{
-  top: 2143px;
-  left: 390px;
-  width: 561px;
-  height: 234px;
-  margin-right: 50px;
-  justify-content: center;
-  display: flex;
-  }
-}
 .hamWed {
   top: 2143px;
   left: 390px;
@@ -293,7 +274,7 @@ a.active, a.hover{
   width: 561px;
   height: 234px;
   float: right;
-  margin-right: 11rem;
+  margin-right: 5rem;
 }
 
 .hamCheese {
@@ -319,6 +300,11 @@ a.active, a.hover{
   font: normal normal normal 25px/32px Dosis;
 }
 
+.hamWedTxt2{
+  color: #1F51A8;
+  font: normal normal normal 16px/20px Source Sans Pro;
+}
+
 .hamWedTxt3{
   font: normal normal normal 16px/20px Source Sans Pro;
   width: 1200px;
@@ -341,6 +327,7 @@ a.active, a.hover{
 }
 .hamSpr5{
   font: normal normal normal 16px/20px Source Sans Pro;
+  color: #1F51A8;
   margin-left: 13rem;
   
 }
@@ -356,6 +343,7 @@ a.active, a.hover{
 }
 .hamCh8{
   font: normal normal normal 16px/20px Source Sans Pro;
+  color: #1F51A8;
 }
 .hamCh9{
   font: normal normal normal 16px/20px Source Sans Pro;
@@ -371,12 +359,7 @@ a.active, a.hover{
   background-position: center;
 }
 
-@media(max-width:768){
-  .aTxt{
-    text-align: center;
-    margin-left: 10rem;
-  }
-}
+
 
 .aTitle{
   text-align: center;
