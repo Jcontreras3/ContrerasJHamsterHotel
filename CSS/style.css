@@ -1,6 +1,28 @@
+
+
+label.img{
+  justify-content: center;
+  display: flex;
+  line-height: 80px;
+  padding: 0;
+  width: 40px;
+}
+
+.navUL{
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 2rem;
+}
+
+a.active, a.hover{
+  border-color: white;
+  transition: .5s;
+  border-radius: 3%;
+}
 .navColor {
   background-color: #000324;
-  margin-bottom: 7rem;
+ height: 8rem;
+ width: 100%;
 }
 .fullBg {
   background-color: #000324;
@@ -8,87 +30,23 @@
   overflow: hidden;
 }
 
-.navL{
-  float: left;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 3.8rem;
-  margin-left: 25rem;
-  outline: 2px solid transparent;
-  
-}
-.navL2{
-  float: left;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-left: 4rem;
-  margin-top: 3.8rem;
-  outline: 2px solid transparent;
-  
-}
-.navL3{
-  float: left;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-left:4rem;
-  margin-top: 3.8rem;
-  outline: 2px solid transparent;
-}
 .navAL{
   text-decoration: none;
   color: white;
   font: normal normal normal 20px/26px Dosis;
   outline-color: white;
+  float: left;
+  margin-top: 70px;
 }
 .navAR{
   text-decoration: none;
   color: white;
   font: normal normal normal 20px/26px Dosis;
-}
-.navR{
   float: right;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 3.8rem;
-  margin-right: 25rem;
-  outline: 2px solid transparent;
-}
-.navR2{
-  float: right;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 3.8rem;
-  margin-right: 4rem;
-  outline: 2px solid transparent;
-}
-.navR3{
-  float: right;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 3.8rem;
-  margin-right: 4rem;
-  outline: 2px solid transparent;
+  margin-top: 70px;
 }
 
-.logo {
- position: absolute;
- left: 50%;
- top: 0;
- content: "";
- margin-left: -50px;
-}
+
 
 .btnBg {
   background-color: #000324;
@@ -145,7 +103,7 @@
   height: 390px;
   justify-content: center;
   display: flex;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 .imgPos {
   align-content: center;
@@ -185,6 +143,16 @@
   margin-left: 30px;
   margin-top: 10px;
 }
+
+/* Cards */
+
+@media(max-width:768)
+{
+  card{
+    height: 20rem;
+  }
+}
+
 
 .cardRow {
   background-image: url("../Assets/bg2.jpg");
@@ -241,7 +209,7 @@
 }
 
 .revBtn {
-  margin-top: 12px;
+  margin-top: 2rem;
   border: none;
   border-radius: 3%;
   background-color: #004cc7;
@@ -250,7 +218,7 @@
   margin-left: 30px;
 }
 .revBtn2 {
-  margin-top: 12px;
+  margin-top: 2rem;
   color: white;
   background-color: #004cc7;
   border-radius: 0;
@@ -279,13 +247,12 @@
 .packageBox {
   background-color: white;
   background-size: cover;
-  height: 70rem;
 }
 
 .packTitle {
   text-align: center;
   font: normal normal normal 35px/44px Dosis;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .boxImgTxt {
@@ -293,6 +260,18 @@
   display: flex;
 }
 
+
+@media(max-width:768){
+  .hamWed{
+  top: 2143px;
+  left: 390px;
+  width: 561px;
+  height: 234px;
+  margin-right: 50px;
+  justify-content: center;
+  display: flex;
+  }
+}
 .hamWed {
   top: 2143px;
   left: 390px;
@@ -353,6 +332,7 @@
   justify-content: center;
   display: flex;
   margin-top: 10px;
+  margin-bottom: 7rem;
 }
 
 .hamSpr4{
@@ -389,7 +369,13 @@
   background-image: url("../Assets/bg.jpg");
   background-size: cover;
   background-position: center;
-  height: 30rem;
+}
+
+@media(max-width:768){
+  .aTxt{
+    text-align: center;
+    margin-left: 10rem;
+  }
 }
 
 .aTitle{
@@ -429,7 +415,7 @@
   margin-top: 70px;
   justify-content: center;
   display: flex;
-  
+  margin-bottom: 5rem;
   
 }
 
@@ -442,6 +428,7 @@
   background-color: white;
   background-size: cover;
 }
+
 
 .boxJJ{
   width: 60rem;

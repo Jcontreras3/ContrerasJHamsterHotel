@@ -16,32 +16,39 @@
 
 <body>
   <div class="container-fluid fullBg">
-    <div class="row">
-      <div class="col-12">
-        <nav class="navColor">
-          
-          <ul>
-            <li class="navL"><a class="navAL" href="">test</a></li>
-            <li class="navL2"><a class="navAL" href="">test</a></li>
-            <li class="navL3"><a class="navAL" href="">test</a></li>
-            <label class="logo"><img src="./Assets/Logo.png" alt=""></label>
-            <li class="navR"><a class="navAR" href="">test</a></li>
-            <li class="navR2"><a class="navAR" href="">test</a></li>
-            <li class="navR3"><a class="navAR" href="">test</a></li>
-          </ul>
-        </nav>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <ul class="nav navColor navUL justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link navAL " aria-current="page" href="#OverView">Overview</a>
+          </li>
+          <li class="nav-item navLI">
+            <a class="nav-link navAL " aria-current="page" href="#Rooms">Rooms</a>
+          </li>
+          <li class="nav-item navLI">
+            <a class="nav-link navAL" href="#Packages">Packages</a>
+          </li>
+          <label for=""> <img src="./Assets/Logo.png" alt=""></label>
+          <li class="nav-item navLI">
+            <a class="nav-link navAR" href="#Amenities">Amenities</a>
+          </li>
+          <li class="nav-item navLI">
+            <a class="nav-link navAR" href="#Contact">Contact</a>
+          </li>
+          <li class="nav-item navLI">
+            <a class="nav-link navAR" href="#Reserve">Reserve</a>
+          </li>
+        </ul>
       </div>
-    </div>
 
 
     <div class="bgImg">
       <div class="row">
         <div class="box">
           <div class="row">
-            <div class="col-12">
+            <div class="col-lg-12 col-md-12 col-sm-12" id="OverView">
               <p class="boxTxt">Run on the wheel of luxury</p>
             </div>
-            <div class="col-12">
+            <div class="col-lg-12 col-sm-12 col-md-12">
               <p class="boxTxt2">
                 Explore everything the beach has to offer in our relaxing
                 resort.
@@ -54,10 +61,10 @@
 
     <div class="row box2">
       <div class="posImgTxt">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-8 col-sm-6 ">
           <img class="hamsterHomeImg" src="./Assets/hamsterhomejpg.jpg" alt="Hamster Home">
         </div>
-        <div class="col-6">
+        <div class="col-lg-5 col-md-6 col-sm-6">
           <h3>Welcome to a hamster's paradise</h3>
           <p>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal
             with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a
@@ -67,9 +74,9 @@
             choosing La Petite Maison.</p>
 
           <div class="row iconRowJJ">
-            <div class="col-4 column mx-5"><img class="awardImg1" src="./Assets/awardfinest.png" alt=""></div>
-            <div class="col-4 column mx-5"><img class="awardImg2" src="./Assets/awardsatisfaction.png" alt=""></div>
-            <div class="col-4 column mx-5"><img class="awardImg3" src="./Assets/awardgenuine.png" alt=""></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 column mx-5"><img class="awardImg1" src="./Assets/awardfinest.png" alt=""></div>
+            <div class="col-lg-3 col-md-2 col-sm-4 column mx-4"><img class="awardImg2" src="./Assets/awardsatisfaction.png" alt=""></div>
+            <div class="col-lg-6 col-md-2 col-sm-4 column mx-5"><img class="awardImg3" src="./Assets/awardgenuine.png" alt=""></div>
           </div>
 
         </div>
@@ -79,11 +86,11 @@
     </div>
 
     <div class="row cardRow">
-      <div class="col-12">
-        <h4 class="cardTitle">Our Rooms</h4>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h4 class="cardTitle" id="Rooms">Our Rooms</h4>
       </div>
       <div class="threeCards">
-        <div class="col-3 cPos">
+        <div class="col-lg-3 col-md-3 col-sm-3 cPos">
           <div class="card" style="width: 28rem;">
             <img class="crdImg" src="./Assets/room1.jpg" class="card-img-top" alt="Room1">
             <div class="card-body">
@@ -99,7 +106,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 cPos2">
+        <div class="col-lg-3 col-md-3 col-sm-3 cPos2">
           <div class="card" style="width: 28rem;">
             <img class="crdImg" src="./Assets/room3.jpg" class="card-img-top" alt="Room3">
             <div class="card-body">
@@ -115,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 cPos3">
+        <div class="col-lg-3 col-md-3 col-sm-3 cPos3">
           <div class="card" style="width: 28rem;">
             <img class="crdImg" src="./Assets/room2.jpg" class="card-img-top" alt="Room2">
             <div class="card-body">
@@ -138,7 +145,7 @@
 
 
 
-    <div class="packageBox">
+    <div class="row packageBox">
       <div class="row">
         <div class="col-12 packTitle">
           <h3>Packages</h3>
@@ -146,7 +153,7 @@
       </div>
 
       <div class="row ham1">
-        <div class="col-12 ham1Col">
+        <div class="col-lg-12 col-md-12 col-sm-12 ham1Col">
           <img class="hamWed" src="./Assets/hamsterwedding.jpg" alt="">
           <P class="hamWedTxt">Beach Wedding package</P>
           <p class="hamWedTxt2">Starting US $1,500.00</p>
@@ -183,56 +190,56 @@
     </div>
 
 
-    <div class="amenBox">
+    <div class="row amenBox">
       <div class="row aR">
-        <div class="col-12 aTitle">
+        <div class="col-lg-12 col-md-12 col-sm-12 aTitle" id="Amenities">
           <h3 class="aTitle">Amenities</h3>
           <p>Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay
             we can provide.</p>
         </div>
       </div>
       <div class="row icR">
-        <div class="col-2 f"><img class="iconImg" src="./Assets/24hour.png" alt="">
+        <div class="col-lg-2 col-sm-3 col-md-3 f"><img class="iconImg" src="./Assets/24hour.png" alt="">
           <p class="aTxt">24 Hour Room Service</p>
         </div>
-        <div class="col-2 f"><img class="iconImg" src="./Assets/breakfast.png" alt="">
+        <div class="col-lg-2 col-sm-3 col-md-3 f"><img class="iconImg" src="./Assets/breakfast.png" alt="">
           <p class="aTxt">Complimentary Breakfast</p>
         </div>
-        <div class="col-2 f"><img class="iconImg" src="./Assets/valet.png" alt="">
+        <div class="col-lg-2 col-sm-3 col-md-3 f"><img class="iconImg" src="./Assets/valet.png" alt="">
           <p class="aTxt">Valet Parking</p>
         </div>
-        <div class="col-2 f"><img class="iconImg" src="./Assets/pool.png" alt="">
+        <div class="col-lg-2 col-sm-3 col-md-3 f"><img class="iconImg" src="./Assets/pool.png" alt="">
           <p class="aTxt">Beachside Pool</p>
         </div>
 
       </div>
     </div>
 
-    <div class="whtBg">
+    <div class="row whtBg">
       <div class="row rJJ">
         <div class="boxJJ">
-          <div class="col-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 " id="Reserve">
             <h3 class="reserTxt">Reserve a Room</h3>
           </div>
 
           <div class="row reserRowJJ">
-            <div class="col-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 reserCols">
               <p class="reserTxt2">Check-in</p>
               <input type="text">
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-2 col-sm-2">
               <p class="reserTxt2">Check-out</p>
               <input type="text">
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-2 col-sm-2">
               <p class="reserTxt2">Number of Guests</p>
               <input type="text">
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-2 col-sm-2">
               <p class="reserTxt2">Room Type</p>
               <input type="text">
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-md-2 col-sm-2">
               <a class="btn btn-primary btn-sm reserveBtn" href="">Check Availabilty</a>
             </div>
           </div>
@@ -248,10 +255,10 @@
 
       <div class="footerBox">
         <div class="row">
-          <div class="col-12 logoPs">
-            <img class="" src="./Assets/Logo.png" alt="">
+          <div class="col-lg-12 col-md-12 col-sm-12 logoPs" id="Contact">
+            <img src="./Assets/Logo.png" alt="Hamster Hotel Logo">
           </div>
-          <div class="col-12 mt-3">
+          <div class="col-lg-12 col-md-12 col-sm-12 mt-3">
             <p class="sunFlowTxt">123 Sunflower Seed Rd., Cavia, California 95205</p>
           </div>
         </div>
