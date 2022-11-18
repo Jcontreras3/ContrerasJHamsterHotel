@@ -1,31 +1,93 @@
 .navColor {
   background-color: #000324;
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
 }
 .fullBg {
   background-color: #000324;
   padding: 0;
   overflow: hidden;
 }
-.Navtxt1 {
+
+.navL{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.8rem;
+  margin-left: 25rem;
+  outline: 2px solid transparent;
+  
+}
+.navL2{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 4rem;
+  margin-top: 3.8rem;
+  outline: 2px solid transparent;
+  
+}
+.navL3{
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left:4rem;
+  margin-top: 3.8rem;
+  outline: 2px solid transparent;
+}
+.navAL{
+  text-decoration: none;
   color: white;
-  text-align: center;
+  font: normal normal normal 20px/26px Dosis;
+  outline-color: white;
 }
-.Navtxt2 {
-  margin-top: 75px;
-  margin-right: 30px;
+.navAR{
+  text-decoration: none;
+  color: white;
+  font: normal normal normal 20px/26px Dosis;
 }
-.Navtxt3 {
-  margin-top: 75px;
-  margin-left: 30px;
+.navR{
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.8rem;
+  margin-right: 25rem;
+  outline: 2px solid transparent;
 }
-.Navtxt4 {
-  margin-top: 75px;
-  margin-left: 30px;
+.navR2{
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.8rem;
+  margin-right: 4rem;
+  outline: 2px solid transparent;
 }
+.navR3{
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 3.8rem;
+  margin-right: 4rem;
+  outline: 2px solid transparent;
+}
+
 .logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
+ position: absolute;
+ left: 50%;
+ top: 0;
+ content: "";
+ margin-left: -50px;
 }
 
 .btnBg {
@@ -207,10 +269,7 @@
   font-size: 16px;
 }
 
-li {
-  font-size: 13px;
-  font: normal normal normal Dosis;
-}
+
 
 .cardFt {
   font-size: 16px;
