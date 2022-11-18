@@ -31,12 +31,18 @@ a.active, a.hover{
 }
 
 .navAL{
-  text-decoration: none;
   color: white;
   font: normal normal normal 20px/26px Dosis;
-  outline-color: white;
+  border:1px solid transparent;
   float: left;
   margin-top: 70px;
+}
+
+.navAL:hover{
+  border:1px solid white
+}
+.navAR:hover{
+  border:1px solid white
 }
 .navAR{
   text-decoration: none;
@@ -44,6 +50,7 @@ a.active, a.hover{
   font: normal normal normal 20px/26px Dosis;
   float: right;
   margin-top: 70px;
+  border:1px solid transparent;
 }
 
 
